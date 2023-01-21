@@ -1,0 +1,50 @@
+let a=12
+console.log(a)
+var b=67
+console.log(b)
+b="tushu"
+console.log(b)
+const author="tushar laha"
+let c=null
+let d=true
+let e="riya"
+let k=Symbol("*I am a nice symbol")
+let g=undefined
+let h=BigInt("657")+BigInt("3")
+console.log(b,c,d,e,k,g,h)
+console.log(typeof h)
+const item ={
+    "tushar":true,
+    "rohan":false,
+    "rahul":undefined
+}
+console.log(item["rohan"])
+let x=45;
+let z=3;
+console.log("x+z=", x+z )
+console.log("x-z=", x-z )
+console.log("x*z=", x*z )
+console.log("x/z=", x/z )
+//comparison operator
+let comp1=8;
+let comp2="8";
+console.log("comp1==comp2 is",comp1==comp2)
+console.log("comp1!=comp2 is",comp1!=comp2)
+console.log("comp1===comp2 is",comp1===comp2)
+console.log("comp1!==comp2 is",comp1!==comp2)
+//assignment operator
+let commp1=50;
+let commp2=10;
+console.log("commp1+=commp2 is",commp1+=commp2)
+console.log("commp1-=commp2 is",commp1-=commp2)
+console.log("commp1*=commp2 is",commp1*=commp2)
+console.log("commp1/=commp2 is",commp1/=commp2)
+//logical operator
+let t=5;
+let f=6;
+console.log(t<f && t==5)
+console.log(t>f || t==5)
+console.log(!false)
+// //conditional  operator
+// let j = prompt("hey what's your age?")
+// j=Number.parseInt//
